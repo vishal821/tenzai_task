@@ -5,4 +5,3 @@ Find the below commands to run the project.
 3. git checkout tenzai_task
 4. npm install
 5. npm start
-
