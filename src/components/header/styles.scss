@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.main_head {
+    padding: 15px;
+    background: #064631;
+    .main_head_content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo_image {
+            a {
+                color: #ffffff;
+                font-size: 28px;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: 900;
+            }
+        }
+        .header_contents {
+            p {
+                display: flex;
+                align-items: center;
+                background: #f89133;
+                border-radius: 2px;
+                padding: 7px;
+                color: #ffffff;
+                img {
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

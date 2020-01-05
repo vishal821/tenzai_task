@@ -1,0 +1,103 @@
+.root {
+    .menu {
+        width: 100%;
+        .mobile_menu { 
+            display: none;
+        }
+    }
+    .table_context {
+        height: 100%;
+        overflow: auto;
+        width: 100%;
+        display: inline-block;
+        position: absolute;
+        .table_contents {
+            background: #f2f2f2;
+            display: flex;
+            padding: 15px;
+            .searchby {
+                display: flex;
+                align-items: center;
+                width: 70%;
+                .select_menu {
+                    select {
+                        border: none;
+                        background: #ffffff;
+                        border-radius: 2px;
+                        padding: 8px 55px 10px 0px;
+                        margin-left: 15px;
+                        text-transform: uppercase;
+                    }
+                    input {
+                        border: none;
+                        padding: 9px 0px 9px;
+                        border-radius: 2px;
+                    }
+                    img {
+                        position: relative;
+                        top: 4px;
+                        left: -20px;
+                    }
+                }
+            }
+        }
+        .table_headings {
+            table{
+                width: 100%;
+                border-spacing: 0px;
+                border-collapse: collapse;
+                tr {
+                    border-left: 15px solid #f2f2f2
+                }
+                .heading_row {
+                    th {
+                        background: #f2f2f2;
+                        text-align: left;
+                        padding-left: 25px;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                    }
+                }
+                .new_style {
+                    border-left: 15px solid #3cacde;
+                    border-bottom: 2px solid #f2f2f2;
+                    td {
+                        padding: 10px 25px 23px;
+                        font-size: 15px;
+                        span {
+                            color: #a4b32e;
+                            text-overflow: ellipsis;
+                        }
+                    }
+                }
+                .old_style {
+                    border-left: 15px solid #b7b7b7;
+                    border-bottom: 2px solid #f2f2f2;
+                    td {
+                        padding: 10px 25px 23px;
+                        font-size: 15px;
+                        span {
+                            color: #a4b32e;
+                            text-overflow: ellipsis;
+                        }
+                    }
+                }
+            }
+            img{
+                height: 10px;
+                width: 12px;
+            }
+        }
+    }
+    .loadingstyle{ 
+        display: inline-block;  
+        background: #f89133;
+        z-index: 99;
+        position: absolute;
+        left: 50%;
+        bottom: 10%;
+        padding: 0px 20px;
+        line-height: 0px;       
+        transform: translateX(-50%);
+    }
+}
